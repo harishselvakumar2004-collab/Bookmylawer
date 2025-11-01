@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EFEFEF"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section 420"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvPunishment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 years imprisonment"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <TextView
+        android:id="@+id/tvSuggestedLawyers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggested: Criminal"
+        android:textSize="14sp"
+        android:textColor="#777777" />
+</LinearLayout>
